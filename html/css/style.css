@@ -186,7 +186,8 @@ html {
   display: flex;
   justify-content: space-between;
 }
-.utity h4, .utity p {
+.utity h4,
+.utity p {
   margin-bottom: 0;
 }
 .utity__item {
@@ -235,7 +236,6 @@ html {
 }
 
 .content2 {
-  margin-bottom: 100px;
   padding: 40px 0;
 }
 .content2 button {
@@ -289,6 +289,68 @@ html {
 .content2__product .item span.priceOrigin {
   text-decoration: line-through;
   color: #6c7075;
+}
+
+.content3 {
+  position: relative;
+}
+.content3 img {
+  width: 100%;
+}
+.content3 .content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15%;
+  width: 500px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content4 {
+  background-color: #f0f0f0;
+  padding: 52px 0 64px 0;
+}
+.content4 .content4__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+.content4 .content4__list {
+  display: flex;
+  justify-content: space-between;
+}
+.content4 .content4__list .item {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 32%;
+  padding: 36px 0;
+  text-align: center;
+}
+.content4 .content4__list .item img {
+  width: 40px;
+}
+.content4 .content4__list .item p.title {
+  font-weight: 700;
+  margin: 12px 0;
+}
+.content4 .content4__list .item p.des {
+  font-size: 16px;
+}
+
+.footer1 {
+  background-color: #232323;
+  color: #fff;
+}
+.footer1 .content {
+  padding: 32px 0;
+}
+
+.footer2 {
+  background-color: #151515;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
