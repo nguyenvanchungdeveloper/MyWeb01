@@ -1,0 +1,75 @@
+// ********* SLIDER *********
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .slider__content {
+    position: relative;
+    display: flex;
+    img {
+      position: absolute;
+      top: 0px;
+      right: 30px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+    .textLeft {
+      width: 354px;
+      // border: 1px solid blue;
+      margin-top: 32px;
+      font-family: "Bebas Neue", cursive;
+      color: #515151;
+  
+      span.upto {
+        font-weight: 500;
+        font-size: 72px;
+        margin-right: 12px;
+      }
+      span.offRetail {
+        font-size: 35px;
+      }
+      p.percent {
+        font-size: 120px;
+        font-weight: 700;
+        text-align: justify;
+        position: relative;
+        top: -60px;
+      }
+      p.saleOff {
+        position: relative;
+        top: -110px;
+        font-size: 36px;
+      }
+      p.more {
+        color: #b60101;
+        width: fit-content;
+        font-size: 24px;
+        position: relative;
+        top: -100px;
+      }
+    }
+  
+    .centerText {
+      // border: 1px solid red;
+      width: fit-content;
+      text-transform: uppercase;
+      text-align: center;
+      height: auto;
+      margin-top: 32px;
+      padding: 10px;
+      font-weight: 700;
+      margin-left: -100px;
+      .coupon {
+        font-size: 30px;
+        color: #515151;
+      }
+      .summer15 {
+        color: #b60101;
+        font-size: 48px;
+        position: relative;
+        top: -20px;
+      }
+    }
+  }
